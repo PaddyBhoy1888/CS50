@@ -1,0 +1,42 @@
+Notes
+
+Unary - count on fingers
+Base-1 - 1No. count
+Base-2 or Binary digit - a bit 0 or 1
+Base 10 - decimal 1-9
+
+Bit - is a zero or 1 
+
+A bit could be assumed light a light bulb where 0 is off & 1 is on
+
+Transistors that are on for 1 or off for 0
+
+Base-2 a.k.a Binary
+
+base-2 is to the power 0, 1, 2 etc and rises the terms 4 bit, 8 bit, 16 bit etc
+
+byte - is 8No. bits in a byte 
+
+This could be a possible combination of 256
+
+0^1, 0^2, 0^4, 0^8, 0^16, 0^32, 0^64, 0^128
+
+A = 65 can be represented by 8 bits 01000001
+
+so B= 66 can be represented by 8 bits 01000010
+
+ASCII - American Security Code for InterChange
+
+We could therfore use this with designated lettering to an 8 bit sequence decifer a message being sent from for instance a message. 
+
+01001000 = 72 = H
+01001001 = 73 = I
+00100001 = 33 = !
+
+We can map numbers to numbers fo instance 49 = 1 using ASCII
+
+Unicode is mapping of letters to numbers in many different lanuauges
+
+Emoji are fonts that can be rendered with a certain string of bytes
+
+
