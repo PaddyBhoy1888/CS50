@@ -1,2 +1,2 @@
-# CompTIA
-Learning CompTIA A+
+# CS50
+Learning Learning Hardvard CS50 course
