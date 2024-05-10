@@ -1,2 +1,2 @@
 # CS50
-Learning Learning Hardvard CS50 course
+Learning Harvard CS50 course
