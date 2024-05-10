@@ -39,4 +39,57 @@ Unicode is mapping of letters to numbers in many different lanuauges
 
 Emoji are fonts that can be rendered with a certain string of bytes
 
+RGB - a number can be used to represent how much RED/GREEN/BLUE is displayed
+images are created by a pattern of bits with colours represent
+
+Videos are a sequence of images over time and can be represented by RGB e.g. 24 frames a second.
+
+Music can be digitised by assigning some representation by bits
+
+Abstraction refers to the simplication of something so you can focus on the high level goals rather than the finner details.
+
+Generally an abstration will be an algorithm in the computer science.
+
+Pseudocode - English like sintacts. Write out the problem and what steps would be needed to do to solve a problem e.g.
+- Find a name in a phone book: - 
+1 - Pick up the phone book
+2 - open to the middle of the phone book
+3 - look at the page.
+4 - if the person is on the page
+5 -     call the person
+6 - else if person is earlier in the book 
+7 -     open to middle of left half of the book
+8 -     go back to step 3
+9 - else if person is later in the book 
+10 -    open to the middle of the right half of the book
+11 -    go back to step 3
+12 - else 
+13 -    Quit
+
+We can notice that the verbs in the solution act as opertation of doing something. Similiarly in programming we refer these verbs or actions as fuctions. Function are when we are asking the computer to do something.
+
+The if, else, else if are what is refered to as conditional e.g. fork in a road where there are options to go one way or another. 
+
+The question part of the problem where we ask in step 4, 6, 9 can be defined as boolien expresions where the question is define with a yes or no or in computing cases True or False (1 or 0).
+
+The indentation is important as it implies the result of the booling would determine the next step as example if step 4 was True then step 5 would be next were as if False then it would jump to step 6.
+
+The lines 8 & 11 act as a loop cycle as the problem reduces it will eventuall get to line 13 and will stop/quit.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
