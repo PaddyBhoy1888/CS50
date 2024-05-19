@@ -78,6 +78,17 @@ The lines 8 & 11 act as a loop cycle as the problem reduces it will eventuall ge
 
 
 
+Scratch
+
+Open Scratch programme from "scratch.mit.edu"
+
+Here we can play around with the visual and written formats of programming.
+
+Using the events tab we can input a block that is defined as "When 'flag' clicked"
+Then adding a block from the looks tab we can add "say [insert]"
+
+Clicking the flag in the top right will run this programme. This is what is called triggering the event. 
+
 
 
 

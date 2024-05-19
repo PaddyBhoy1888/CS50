@@ -1,0 +1,10 @@
+Source code > compiler > machine code
+
+We write in sorce code, the complier converts the source into machine code ( 0 & 1's) that the machine can read
+
+We want code to write that will be correct, i.e. code correctness
+
+Design is subjective, the better design your code is written can run faster and easier to understand.
+
+The style of your code can be helpful for humans to read & understand.
+
