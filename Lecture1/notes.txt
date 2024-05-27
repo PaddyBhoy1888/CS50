@@ -19,7 +19,7 @@ Escape sequence are when we add a line so the prompt symbol is clearly defined o
 
 Data types - Strings, integers, char, bool etc. 
 
-Conditionals
+#Conditionals#
 
 $ code <insert file name>.c #is a short cut way to make a file in C language.
 
@@ -31,3 +31,13 @@ The command 'Ctrl+K+U' is used to comment in code.
 Make sure to add libraries at the start of each new code file. 
 
 int main(void) has not been discussed but will always be at the start of the code at the moment. 
+
+When dealing with single characters using char then 'single' quoyes should be used
+
+When creating a character code we can use upper and lower case, instead or repeating lines after lines of the same code we can use and or type statement and in c '||' the two vertical bars can be used to represent the 'OR'
+
+#VARIABLES#
+
+Only when you create a variable do you need to define it i.e. string, char, bool etc, when we add to a variable we do not need to do this. 
+
+There are different ways we can write adding to a variable or subtracting e.g. 'counter++' 
