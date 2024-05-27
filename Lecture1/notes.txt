@@ -8,3 +8,26 @@ Design is subjective, the better design your code is written can run faster and 
 
 The style of your code can be helpful for humans to read & understand.
 
+Syntax highlighting is part of text editors tha will highlight specific components of the syntax to help identify parts.
+
+$ make hello - This command will compile the code to binary
+$ ./hello - This will run the programe 
+
+Escape sequence are when we add a line so the prompt symbol is clearly defined on new line e.g. "\n" for the new line
+
+#include <stdio.h> - This is a header file that declairs a file exists i.e. "printf". This is a type of library that informs the compiler that we wish to use this as part of our function.
+
+Data types - Strings, integers, char, bool etc. 
+
+Conditionals
+
+$ code <insert file name>.c #is a short cut way to make a file in C language.
+
+In C language we need to define what the variable is i.e if it is a int, string, bool etc e.g. 'int x'
+
+The command 'Ctrl+K+C' is used to comment out code.
+The command 'Ctrl+K+U' is used to comment in code.
+
+Make sure to add libraries at the start of each new code file. 
+
+int main(void) has not been discussed but will always be at the start of the code at the moment. 
