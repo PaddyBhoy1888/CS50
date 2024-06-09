@@ -1,0 +1,7 @@
+CS50 Setup
+
+1. Website to log into to get access to github code space - https://cs50.readthedocs.io/cs50.dev/
+
+2. Select the cs50.dev link to open site
+
+3. log into code space through github. 

@@ -102,9 +102,32 @@ This would code to show the ???? but is very basic.
 
 We can make this more concise with a for loop. 
 
+Lets Start using the code space to start adding notes to avoid duplication of information and save time. Only key notes of course now provided. 
+
+CALCULATOR
+
+As the computer is restricted with the amount of RAM it has access to cacluating large numbers like 2,000,000,000 + 2,000,000,000 can return an error like negative number. Given most computers use 32 bits it has a maximum represented number of 
+4,294,967,295 which is all 32 bits as a 1.
+But it should also be lnown that as we need to represent negative numbers that half of the avalible numbers should be allocated to the negative side. This means that in actual fact the higest positive number will be: +2,147,483,647 & -2,147,483,647. 
+
+Integer overflow is where the computer runs out of bits to use than what is avaliable. 
+
+Longs are a concept in C where longer numbers can be represented, so rather than calling an 'int' a 'long' can be called. This allows the compurter to use 64 bits rather than the 32 bits and thus has access to more variable of values. 
+
+Truncation
+
+Where we have values with decimal points we can lose the values after the decimal points or 'truncate' them. This can happen when division is used. When two integers are divide it should return a fraction with a floating point value with a decimal points. This identifies that we can not use 'int' or 'long' in the code to get decimal points alone. So a float value can be added to store the decimal values, but this alone is not enough is the value can also be lost i.e. 'Truncated' so another method needs to be also used i.e. type casting. 
 
 
+Type Casting 
 
+Is the method of converting one data type to another. This can be done by specifying that an integer is a float value and C program can then understand that it is dividing a float by a float value and retain the decimal values.
+
+Floating-Point Imprecision
+
+Just as a large integers can not be used, the computer has limits i.e. bits or RAM that can result in imprecision of decimal points as the computer will have limits. 
+
+A 'double' is like a float except it has the addion of allowing the program access to 64 bits instead of 32 that a float has access to. The double works the same way as float by storing the floating point values.
 
 
 
