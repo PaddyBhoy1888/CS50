@@ -1,0 +1,38 @@
+Syther text or encryption
+
+The compiler used in the C is 
+
+clang hello.c (to compile)
+
+./a.out (to run)
+
+To manually compile the code you can use clang hello.c for example. the ./a.out to run the compiled code.
+
+You can use command line arguments to run the compiler and set the value to be output to run the file. e.g.
+
+clang -o hello hello.c (example based on a file called heelo.c and stated that the command to run the file will be hello)
+
+./hello (will run the file that has been compiled with the stated command word choice)
+
+Note: - a.out is the standard default for clang output 
+
+Note errors can occur when using clang as it can not give the clang enough information to seek functions. 
+
+>clang -o hello hello.c -lcs50
+>./hello 
+
+The above is used to direct clang using the additional command line "-lcs50"
+
+This is the second step to tell the compiler to action the library functions
+
+>make //This allows you to action the compiler with a time saver function that uses clang.
+
+There are 4 steps to compliling 
+1 - Prepprocessing - Is something that is analysied before any action is started e.g. #include <cs50.h>. Usually in the computer/server in /usr/include typically in this folder. Clang looks for this file and copy and paste the information in the file but this is not visually seen
+
+2 - compliling - Once a program has been preprocessed, now it converts the code to assembly code which is more closer to what the CPU's can understand. This is a lot less user frendily that does many differnt things in the background. 
+
+3 - Assembling - This is where the compiled code is converted to computer code 0110 etc. 
+
+4 - Linking - This links all the code together i.e. our code, stdio.h & cs50.h etc is all added together in machine code linking to give a full code.
+
