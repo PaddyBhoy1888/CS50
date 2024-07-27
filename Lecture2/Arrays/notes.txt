@@ -36,3 +36,17 @@ There are 4 steps to compliling
 
 4 - Linking - This links all the code together i.e. our code, stdio.h & cs50.h etc is all added together in machine code linking to give a full code.
 
+De-compiling is converting code back to source code. Downside of this is the computer does not retain function names etc. and the information can be mixed or lost. Time consuming and costly.
+
+De-bugging is a method for reading code and identifying errors that need to be corrected.
+
+A method for debugging can be done using printf, for instance checking the value of a variable. (check buggy0.c file)
+
+Another tool we can use is a debugger, this is a tool created by computer scienctist to help identify and correct bugs. The space to the left of the code line numbers has a red dot that when selected tells the de-bugger to stop at a specific point in the code i.e. break point. This is so the code can be stepped through at a more managable time interval to see what is happening between the this section. A command can be used "debug50" and then "code file name" which will step through that code an stop before the selected break point.
+
+Within the debugger there are some key icons at the top that need to be noted. 
+
+Continue - This will continue to play the rest of the code.
+
+Step Over - This will play the last highlighted line of code where the breakpoint was placed, but not dive into the code. 
+
