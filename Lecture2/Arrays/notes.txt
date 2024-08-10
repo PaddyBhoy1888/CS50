@@ -50,3 +50,32 @@ Continue - This will continue to play the rest of the code.
 
 Step Over - This will play the last highlighted line of code where the breakpoint was placed, but not dive into the code. 
 
+Along with the printf & debugger there is also another eature that is called a 'rubber duck'. The idea is which is to sound out what problem you are having. i.e. talk to a rubber duck object, speaking the issue out loud can be enough to help resolve an issue. Talking to others about the problem often helps were the illogical issue is.
+
+DATA TYPES
+
+There are different types of data types these are e.g. 
+
+bool - 1 byte
+int - 4 bytes
+long - 8 bytes
+float - 4 bytes
+double - 8 bytes
+char - 1 byte
+string - ? bytes (Variable depending on what the user inputs)
+...etc
+
+Each of these types are given a specific amount of bits that are assigned by the computer. 
+
+ARRAYS
+
+These are a way of storing your data back to back to back in a way that you can access easily.
+
+To get the values in the array you need to index into it.
+
+This can be done with score[0], score[1], score[2] etc in-line with the code we completed.
+
+We could further pass arrays around as arguments.
+
+Consider the world of 'Char' if we had only single bytes.
+
