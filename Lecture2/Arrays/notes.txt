@@ -85,4 +85,14 @@ Making strings with explicit 'char' are not very intuitive and could be time cos
 
 With strings being a set of 'char' we could extract the indavidual 'char' that make up a string by identifying the 'char' position i.e. [0], [1] etc etc
 
+LENGTH.c
 
+We can aim to find out the length of a string which is differnent from the length of an array, which can not be dynamically measured.
+
+We can do this because strings have the important variable '\0' at the end of the string unlike other data types.
+
+With this issue being common others have created function of strings and thus a whole library can be found in the programming lanugaue 'C'. This can be foun in a header file called 'string.h' which is all sorts of string related functions.
+
+There is a specifc function created called 'strlen' that will give the length of a string.
+
+Another library that may be useful moving forward is called 'ctype.h' which relates to C data types which has many functions that can be useful. These libraries can help remove the tediousness from repetitive code writing to complete simple tasks like lowercase to uppercase which can be easily done referncing these libraries.
