@@ -96,3 +96,35 @@ With this issue being common others have created function of strings and thus a 
 There is a specifc function created called 'strlen' that will give the length of a string.
 
 Another library that may be useful moving forward is called 'ctype.h' which relates to C data types which has many functions that can be useful. These libraries can help remove the tediousness from repetitive code writing to complete simple tasks like lowercase to uppercase which can be easily done referncing these libraries.
+
+
+Command line arguments
+
+We can express our hole thoughts at once using command line arguments all at once by editing the '(void)' section within the 'int main(void)'.
+
+This means that the code will take command line arguments like 'int argc, string argv[]'
+
+This allows show the two ways to perform the int main(void)
+
+
+EXIT STATUS
+
+when ever your main function terminates it returns an interger that allows a degugger to check what the issue is.
+
+This number correspondance to an error that is usual known by some technical person.
+
+The 'int' is always there for main and will return 0 by default. But will be able to return a number when the program exits
+
+We can use the 'echo $?' arter an return error message to see what the error code is.
+
+CRYPTOGRAPHY
+
+The ability to send secret and decrypt secret information
+
+We can sent information into a 'ciphtext' by incription it using a 'cipher'
+
+In order to dishiper the incription the user would need to know the key to the cipher.
+
+This allows information to be sent and if interfered with unless you know the info you can not understand
+
+
