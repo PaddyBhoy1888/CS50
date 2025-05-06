@@ -1,0 +1,48 @@
+Algorthims 
+
+We can use a search type called a linear search whereby we can search through itms from left to right in a logic step method. 
+
+For example if we had a list of 7 numbers in a random order and placed behind 7 doors.
+
+e.g. [1, 2, 3, 4, 5, 6, 7], doors 1-7
+
+We want to find the number 5, using a linear search method we can search in door one and check if the number 5 is behind that door. We would continue to move to the next door repeating the steps until we got to door number 5  & the number 5 inside. 
+
+This linear method can be developed into programing by a loop method: - 
+
+>for each door from left to right //linear method left to right
+    > if 50 is behind door //if 50 is behind the door return true
+        Return true
+Return false //if after the loop is complete and 50 is not found return fals.
+
+This method allows the full search of all doors in a logic step to achieve the desired outcome of either true or false (bool expression)
+
+We can take this code and improve it by changing the syntax: -
+
+>for i from 0 to n-1 //Here we create a loop i with a search of 0 to n-1
+    >if 50 is behind doors[i] //here we create a variable called doors[i]
+        Return true //here we create a return with a bool output if we find what we require
+Return false //here we create a return with a bool output if we do not find what we require.
+
+Binary Search 
+
+If the money was arranged behind the doors in a numerical order low/high. We can create a more targated search without knowing what values are behind the door. A divide and conquer strategy can be proposed.
+
+If 50 is behind middle door //This way the code can start at middle jucntion and see what value begins
+    Return true // if 50 found return true
+Else if 50 < middle door //If the value found is less than 50 move left.
+    Search left half //Move to mddle left precisely
+Else if 50 > middle door //if the value is greater than 50 move right.
+    Search right half //Mover to middle right precisely
+Return false //Create a return with bool output if we don not find the value.
+
+We can improve this code by using better syntax
+
+If no doors left
+    Return false //If no doors are found then return false
+If 50 is behind doors[middle]
+    Return true // If the 50 is behind middle door return true
+Else if 50 < doors[middle]
+    Search doors[0] through doors[middle - 1] //Less than 50 go left -1
+Else if 50 > doors[middle]
+    Search doors[middle + 1] through doors[n -1] //More than 50 go right +1
