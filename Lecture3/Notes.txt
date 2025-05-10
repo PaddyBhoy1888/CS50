@@ -46,3 +46,27 @@ Else if 50 < doors[middle]
     Search doors[0] through doors[middle - 1] //Less than 50 go left -1
 Else if 50 > doors[middle]
     Search doors[middle + 1] through doors[n -1] //More than 50 go right +1
+
+Big O of 
+
+O(n) or O(n/2) or O(log n)
+
+The size of a problem & the time to solve
+
+Common formulas for linear & binear search
+
+O(n2) - 
+O(n log n) - 
+O(n) - Linear Search
+O(log n) - Bineary Search 
+O(1) - 
+
+Omega(n2) - 
+Omega(n log n) - 
+Omega(n) - Linear Search (Lower Bound)
+Omega(log n) - Bineary Search (Upper Bound)
+Omega(1) - Linear Search or Bineary Search (lower bound i.e. lowest search amount)
+
+If the upper & bound are the same the symbole Theta can be used.
+
+
