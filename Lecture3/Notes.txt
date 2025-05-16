@@ -69,4 +69,6 @@ Omega(1) - Linear Search or Bineary Search (lower bound i.e. lowest search amoun
 
 If the upper & bound are the same the symbole Theta can be used.
 
+Data Structure
+
 
