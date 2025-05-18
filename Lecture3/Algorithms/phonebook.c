@@ -39,7 +39,7 @@ int main(void)
 {
     person people[2]; // an array called people with 2 inputs
 
-    people[0].name = "Carter";
+    people[0].name = "Carter"; // the .name notation allows us to llok inside the first person ad check the name assigned
     people[0].number = "+1-617-495-1000";
 
     people[1].name = "David";

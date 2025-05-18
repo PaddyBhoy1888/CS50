@@ -92,3 +92,47 @@ For better completenece we can combine these data types into one using the follo
     person; // This is the name of the type you wish to make.
 
 
+SORTING
+
+If sorting is going to be fast the do it before searching, if sorting is slow should we sort the data before or after?
+
+Unsorted > ....> Sorted
+
+72541603 > .....> 0123457
+
+There are a few differnt ways to sort numbers. 
+
+We can propose an alogorithm that is called selection sort. 
+
+This could allow us to find the smallest number and swap it with what ever is in the lowest numbers position. 
+
+Selection sorts checks every number in the list regardless of finding the lowest number as it does not have the memory capacity to remeber all.
+
+We could propose this in code would look something like: - 
+
+> For i from 0 to n-1
+    Find smallest number between numbers [i] and numbers [n-1]
+    Swap smallest number with numbers[i]
+
+
+We could also try utilising another method called BUBBLE Swap
+
+This looks at the first two numbers and swaps them so that the smallest number is first. This repeats through the list of numbers until the end. When at the end the code re-starts from the first two numbers and continues to iterate untill all numbers are in the correct place.
+Logically if all pairs are compared an no changes are made the computer logically should stop at this point.
+
+For select sorting
+Selection sort is on the order of O(n^2)
+
+Using the omega notation you are still going to have to search through the list regardless if the list is already sorted, so it will always take n^2 steps
+
+For Bubble sort
+
+> Repeat n-1 times //Check the code from start to finish
+    For i from 0 to n-2 // Search up to the second last person
+        if numbers[i] and numbers[i+1] out of order // checks to see if the number on the left is higer than on the right. If less leave if more progress to below code
+            Swap them //Swap
+
+
+
+
+
