@@ -71,4 +71,24 @@ If the upper & bound are the same the symbole Theta can be used.
 
 Data Structure
 
+With C we can create our own data structures. 
+
+Like strings for instance they are a data structure linked together within an array. 
+
+For instance we can create a data type called person that could have a name & number. e.g. 
+
+> person people[]
+
+> string name;
+> string number;
+
+For better completenece we can combine these data types into one using the following syntax
+
+> typedef struct //a key word that allows us to define our own type. With 'struct' is an indication that is a structure that has multiple values that you are trying to define.
+    {
+        string name;
+        string number;
+    }
+    person; // This is the name of the type you wish to make.
+
 
