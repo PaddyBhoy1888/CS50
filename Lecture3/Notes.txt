@@ -133,6 +133,35 @@ For Bubble sort
             Swap them //Swap
 
 
+As n^2 gets larger both methods tend to compute the same at the order of O(n^2)
+
+For the lower order we can introduce a stop to stop the code re-checking the code and wasting computing time/resorces.
+
+> Repeat n-1 times //Check the code from start to finish
+    For i from 0 to n-2 // Search up to the second last person
+        if numbers[i] and numbers[i+1] out of order // checks to see if the number on the left is higer than on the right. If less leave if more progress to below code
+            Swap them //Swap
+    If no swaps
+        Quit
+
+Bubble sort can be advantageouse if already some sorted and the use of adding the quit at the end
+
+RECURSION
+In programming recursion is the term used for a function to call it's self
+
+Consider this code for searching in bineary search, e.g.
+
+>If no doors left
+    Return false
+If number behind middle door
+    Return true
+Else if number < middle door
+    Search left half
+Else if number > middle door
+    Search right half
+
+The above sudo code is recursive because the Else statements are themselves a search algorithm to which the serach code has a search code inside that can call itself. This can cause errors if not done correct but the above code has exit factors i.e. Return true or false
+
 
 
 
