@@ -162,6 +162,31 @@ Else if number > middle door
 
 The above sudo code is recursive because the Else statements are themselves a search algorithm to which the serach code has a search code inside that can call itself. This can cause errors if not done correct but the above code has exit factors i.e. Return true or false
 
+RECURSION
+
+Using recursion we can take another method for searching numbers in such a way that we can do less comparisions and speed up the search.
+
+Merge sort - is a method where we ask the computer to sort the left hand side then sort the righthand side then merge the result at the en e.g. 
+
+if only one number
+    Quit
+
+Else
+    Sort left half of numbers
+    Sort right half of numbers
+    Merge sorted halves
+
+Each half is organised smallest to largest. Merge sort compares the first two numbers on each of the halves. The lowest number is taken to the side i.e merged. The number that wasn't taken remains and athe next number from the list that was drawn from reveals the next number. The two numbers are then compared again and the method repeats until the last number is left.
+
+Merge sort needs more memory that other search methods.
+
+Merge works recursively as when we sort the left half we half that half again and solve the left of the left half then merge and then solve the right half of the left half and merge. Then we half two sorted halves of the left half that we then repeat the merge. These steps are repaeated on the right half until its solved. Then we merge both halves again.
+
+Merge sort is considered O(n log n). 
+
+Searching and organising takes time and space on a computer. 
+
+
 
 
 
